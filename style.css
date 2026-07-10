@@ -1,9 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:  "Open Sans", sans-serif;
 }
-header{
+/* header{
     background-color: aquamarine;
+} */
+/* common style */
+.common-btn{
+    background-color: #fd6e0a;
+    padding: 10px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border: none;
 }
 nav{
    
@@ -12,10 +23,27 @@ nav{
     max-width: 1200px;
     margin: auto;
 }
+nav ul li a{
+    text-decoration: none ;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.logo-r{
+    color: #ffa500;
+}
 ul{
      display:flex;
     justify-content: space-between;
     list-style: none;
     gap: 15px;
+    align-items: center;
 
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
